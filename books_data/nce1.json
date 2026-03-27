@@ -1,0 +1,66 @@
+{
+  "id": "nce1_complete",
+  "title": "NCE Book 1: First Things First",
+  "chapters": [
+    {
+      "id": "1-1",
+      "title": "Excuse me!",
+      "content": "Excuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes, it is.\nThank you very much.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-2",
+      "title": "Is this your...",
+      "content": "Pen.\nPencil.\nBook.\nWatch.\nCoat.\nDress.\nSkirt.\nShirt.\nCar.\nHouse.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-3",
+      "title": "Sorry, sir.",
+      "content": "My coat and my umbrella please.\nHere is my ticket.\nThank you, sir.\nNumber five.\nHere's your umbrella and your coat.\nThis is not my umbrella.\nSorry, sir.\nIs this your umbrella?\nNo, it isn't.\nIs this it?\nYes, it is.\nThank you very much.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-4",
+      "title": "Is this your...",
+      "content": "Suit.\nSchool.\nTeacher.\nSon.\nDaughter.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-5",
+      "title": "Nice to meet you.",
+      "content": "Good morning.\nGood morning, Mr. Blake.\nThis is Miss Sophie Dupont.\nSophie is a new student.\nShe is French.\nSophie, this is Hans.\nHe is German.\nNice to meet you.\nAnd this is Naoko.\nShe's Japanese.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-6",
+      "title": "What make is it?",
+      "content": "Volvo.\nPeugeot.\nMercedes.\nToyota.\nDaewoo.\nMini.\nFord.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-7",
+      "title": "Are you a teacher?",
+      "content": "I am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Alice.\nAre you French?\nYes, I am.\nAre you French too?\nNo, I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo, I'm not.\nWhat's your job?\nI'm a keyboard operator.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-8",
+      "title": "What's your job?",
+      "content": "Policeman.\nPolicewoman.\nTaxi driver.\nAir hostess.\nPostman.\nNurse.\nMechanic.\nHairdresser.\nHousewife.\nMilkman.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-9",
+      "title": "How are you today?",
+      "content": "Hello, Helen.\nHi, Steven.\nHow are you today?\nI'm very well, thank you. And you?\nI'm fine, thanks.\nHow is Tony?\nHe's fine, thanks. How's Emma?\nShe's very well, too, Helen.\nGoodbye, Helen. Nice to see you.\nNice to see you, too, Steven. Goodbye.",
+      "audioUrl": ""
+    },
+    {
+      "id": "1-10",
+      "title": "Look at...",
+      "content": "Look at that man.\nHe's fat.\nLook at that woman.\nShe's thin.\nLook at that policeman.\nHe's tall.",
+      "audioUrl": ""
+    }
+  ]
+}
