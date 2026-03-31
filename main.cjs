@@ -209,7 +209,11 @@ ipcMain.handle('get-books', () => {
       const bPath = path.join(booksPath, f);
       try {
         const bookData = JSON.parse(fs.readFileSync(bPath, 'utf8'));
-        if (bookData && bookData.id && bookData.chapters) {
+        if (Array.isArray(bookData)) {
+            for (const b of bookData) {
+                if (b && b.id && b.chapters) allBooks.push(b);
+            }
+        } else if (bookData && bookData.id && bookData.chapters) {
           allBooks.push(bookData);
         }
       } catch (err) {
