@@ -1,436 +1,436 @@
 [
   {
-    "id": "nce_custom",
+    "id": "1-nce_custom",
     "title": "新概念英语 1",
     "chapters": [
       {
-        "id": "1",
+        "id": "1-1",
         "title": "Excuse me!",
         "content": "Excuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes, it is.\nThank you very much.",
         "audioUrl": "local://audio/1.mp3"
       },
       {
-        "id": "3",
+        "id": "1-3",
         "title": "Sorry sir.",
         "content": "My coat and my umbrella please.\nHere is my ticket.\nThank you sir.\nNumber five.\nHere is your umbrella and your coat.\nThis is not my umbrella.\nSorry sir.\nIs this your umbrella?\nNo, it isn't.\nIs this it?\nYes, it is.\nThank you very much.",
         "audioUrl": "local://audio/3.mp3"
       },
       {
-        "id": "5",
+        "id": "1-5",
         "title": "Nice to meet you.",
         "content": "Good morning.\nGood morning, Mr. Blake.\nThis is Miss Sophie Dupont.\nSophie is a new student.\nShe is a French.\nSophie, this is Hans.\nHe is German.\nNice to meet you.\nAnd this is Naoko.\nShe's��Japanese.\nNice to meet you.\nAnd this is Chang-woo.\nHe's Korean.\nNice to meet you.\nAnd this is Luming.\nHe's Chinese.\nNice to meet you.\nAnd this is Xiaohui.\nShe's Chinese, too.\nNice to meet you.",
         "audioUrl": "local://audio/5.mp3"
       },
       {
-        "id": "7",
+        "id": "1-7",
         "title": "Are you a teacher?",
         "content": "I'm a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes, I'm.\nAre you French, too?\nNo, I'm not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo, I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
         "audioUrl": "local://audio/7.mp3"
       },
       {
-        "id": "9",
+        "id": "1-9",
         "title": "How are you today?",
         "content": "Hello, Helen.\nHi, Steven.\nHow are you today?\nI'm very well, Thank you.\nAnd you?\nI'm fine, thanks.\nHow is Tony?\nHe's fine, Thanks.\nHow's Emma?\nShe's very well, too, Helen.\nGoodbye, Helen.\nNice to see you.\nNice to see you, too, Steven.\nGoodbye.",
         "audioUrl": "local://audio/9.mp3"
       },
       {
-        "id": "11",
+        "id": "1-11",
         "title": "Is this your shirt?",
         "content": "Whose shirt is that?\nIs this your shirt, Dave?\nNo, sir.\nIt's not my shirt.\nThis is my shirt.\nMy shirts blue.\nIs this shirt Tim's?\nPerhaps it is, sir.\nTim's shirts white.\nTim!\nYes, sir.\nIs this your shirt?\nYes, Sir.\nHere you are.\nCatch.\nThank you, sir.",
         "audioUrl": "local://audio/11.mp3"
       },
       {
-        "id": "13",
+        "id": "1-13",
         "title": "A new dress What color is your new dress?",
         "content": "It is green.\nCome upstairs and see it.\nThanks you.\nLook!\nHere it is!\nThat's a nice dress.\nIt's very smart.\nMy hat's new, too.\nWhat color is it?\nIt's the same color.\nIt's green, too.\nThat's a lovely hat.",
         "audioUrl": "local://audio/13.mp3"
       },
       {
-        "id": "15",
+        "id": "1-15",
         "title": "Your passport, please.",
         "content": "Are you Swedish?\nNo, we are not.\nWe are Danish.\nAre your friends Danish, too?\nNo, they aren't.\nThey are Norwegian.\nYour passport, please.\nHere they are.\nAre there your cases?\nNo, they aren't.\nOur cases are brown.\nHere they are.\nAre you tourists?\nYes, we are.\nAre your friends tourists too?\nYes, they are.\nThat's fine.\nThank you very much.",
         "audioUrl": "local://audio/15.mp3"
       },
       {
-        "id": "17",
+        "id": "1-17",
         "title": "How do you do Come and meet our employees, Mr. Richards.",
         "content": "Thank you, Mr. Jackson.\nThis is Nicola Grey, and this is Claire Taylor.\nHow do you do?\nThose women are very hard-working.\nWhat are their jobs?\nThey're keyboard operators.\nThis is Michael Baker, and this is Jeremy Short.\nHow do you do?\nThey aren't very busy!\nWhat are their jobs?\nThey're sales reps.\nThey are very lazy.\nWho is this young man?\nThis is Jim.\nHe is our office assistant.",
         "audioUrl": "local://audio/17.mp3"
       },
       {
-        "id": "19",
+        "id": "1-19",
         "title": "Tired and thirsty What's the mater, children?",
         "content": "We are tired and thirsty, Mum.\nSit down here.\nAre you all right now?\nNo, we aren't.\nLook!\nThere's an ice cream man.\nTwo ice creams please.\nHere you are, children.\nThanks, Mum.\nThere ice creams are nice.\nAre you all right now?\nYes, we are, thank you.",
         "audioUrl": "local://audio/19.mp3"
       },
       {
-        "id": "21",
+        "id": "1-21",
         "title": "Which book?",
         "content": "Give me a book please, Jane.\nWhich book?\nThis one?\nNo, not that one.\nThe red one.\nThis one?\nYes, please.\nHere you are.\nThank you.",
         "audioUrl": "local://audio/21.mp3"
       },
       {
-        "id": "23",
+        "id": "1-23",
         "title": "Which glasses?",
         "content": "Give me some glasses please, Jane.\nWhich glasses?\nThese glasses.\nNo, not those.\nThe ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
         "audioUrl": "local://audio/23.mp3"
       },
       {
-        "id": "25",
+        "id": "1-25",
         "title": "Mrs. Smith's kitchen Mrs. Smith's kitchen is small.",
         "content": "There is a refrigerator in the kitchen.\nThe refrigerator is white.\nIt is on the right.\nThere is an electric cooker in the kitchen.\nThe cooker is blue.\nIt is on the left.\nThere is a table in the middle of the room.\nThere is a bottle on the table.\nThe bottle is empty.\nThere is a cup on the table, too.\nThe cup is clean.",
         "audioUrl": "local://audio/25.mp3"
       },
       {
-        "id": "27",
+        "id": "1-27",
         "title": "Mrs. Smith's living room Mrs. Smith's living room is large.",
         "content": "There is a television in the room.\nThe television is near the window.\nThere are some magazines on the television.\nThere is a table in the room.\nThere are some newspapers on the table.\nThere are some armchairs in the room.\nThe armchairs are near the table.\nThere is a stereo in the room.\nThe stereo is near the door.\nThere are some books on the stereo.\nThere are some pictures in the room.\nThe pictures are on the wall.",
         "audioUrl": "local://audio/27.mp3"
       },
       {
-        "id": "29",
+        "id": "1-29",
         "title": "Come in, Amy.",
         "content": "Come in, Amy.\nShut the door, please.\nThis bedroom is very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room.\nThen put these clothes in the wardrobe.\nThen make the bed.\nDust the dressing table.\nThen sweep the floor.",
         "audioUrl": "local://audio/29.mp3"
       },
       {
-        "id": "31",
+        "id": "1-31",
         "title": "Where's Sally?",
         "content": "Where's Sally, Jack?\nShe's in the garden, Jane.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is.\nHe's climbing the tree.\nI beg your pardon?\nWho's climbing the tree.\nTim is.\nWhat about the dog?\nThe dog's in the garden, too.\nIt's running across the grass.\nIt's running after a cat.",
         "audioUrl": "local://audio/31.mp3"
       },
       {
-        "id": "33",
+        "id": "1-33",
         "title": "A fine day It's a fine day today.",
         "content": "There are some clouds in the sky, but the sun is shining.\nMrs. Jones's with his family.\nThey are walking over the bridge.\nThere are some boats on the river.\nMrs. Jones and his wife are looking at them.\nSally is looking at a big ship.\nThe ship is going under the bridge.\nTim is looking at an aeroplane.\nThe aeroplane is flying over the river.",
         "audioUrl": "local://audio/33.mp3"
       },
       {
-        "id": "35",
+        "id": "1-35",
         "title": "Our village This is a photograph of our village.",
         "content": "Our village is in a valley.\nIt is between two hills.\nThe village is on a river.\nHere is another photograph of the village.\nMy wife and I are walking alone the banks of the river.\nWe are on the left.\nThere is a boy in the water.\nHe is swimming across the river.\nHere is another photograph.\nThis is the school building.\nIt is beside a park.\nThe park is on the right.\nSome children are coming out of the building.\nSome of them are going into the park.",
         "audioUrl": "local://audio/35.mp3"
       },
       {
-        "id": "37",
+        "id": "1-37",
         "title": "Making a bookcase You're working hard, George.",
         "content": "What are you doing?\nI'm making a bookcase.\nGive me that hammer please, Dan.\nWhich hammer.\nThis one?\nNo, not that one.\nThe big one.\nHere you are.\nThanks, Dan.\nWhat are you going to do now, George?\nI'm going to paint it.\nWhat colour are you going to paint it?\nI'm going to paint it pink.\nPink!\nThis bookcase isn't for me.\nIt's for my daughter, Susan.\nPink's her favorite colour.",
         "audioUrl": "local://audio/37.mp3"
       },
       {
-        "id": "39",
+        "id": "1-39",
         "title": "Don't drop it!",
         "content": "What are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that.\nGive it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful.\nDon't drop it!\nDon't put it there, Sam.\nPut it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
         "audioUrl": "local://audio/39.mp3"
       },
       {
-        "id": "41",
+        "id": "1-41",
         "title": "Penny's bag Is that bag heavy, Penny?",
         "content": "Not very.\nHere!\nPut it on this chair.\nWhat's in it?\nA piece of cheese.\nA loaf of bread.\nA bar of soap.\nA bar of chocolate.\nA bottle of milk.\nA pound of sugar.\nHalf a pound of coffee.\nA quarter of a pound of tea.\nAnd a tin of tobacco.\nIs that tin of tobacco for me?\nWell, it's certainly not for me!",
         "audioUrl": "local://audio/41.mp3"
       },
       {
-        "id": "43",
+        "id": "1-43",
         "title": "Hurry up!",
         "content": "Can you make the tea, Sam?\nYes, of course I can, Penny.\nIs there any water in this kettle(ˮ��)?\nYes, there is.\nWhere's the tea?\nIt's over there, behind the teapot.\nCan you see it?\nI can see the teapot, but I can't see the tea.\nThere it is!\nIt's in front of you.\nAh yes, I can see it now.\nWhere are the cups?\nThere are some in the cupboard�������.\nCan you find them?\nYes.\nHere they are.\nHurry up, Sam.\nThe kettle's boiling.",
         "audioUrl": "local://audio/43.mp3"
       },
       {
-        "id": "45",
+        "id": "1-45",
         "title": "THE BOSS: Can you come here a minute please, Bob?",
         "content": "Bob: Yes, sir?\nTHE BOSS: Where's Miss Jones?\nBob: She's next door.\nShe's in her office, sir.\nTHE BOSS: Can she type this letter for me?\nAsk her please.\nBob: Yes, sir.\nBob: Can you type this letter for the boss please, Miss Jones?\nMISS JONES: Yes, of course I can.\nBob: Here you are.\nMISS JONES: Thank you, Bob.\nMISS JONES: Bob!\nBob: Yes?\nWhat's the matter?\nMISS JONES: I can't type this letter.\nMiss Jones: I can't read it!\nThe boss's handwriting is terrible!",
         "audioUrl": "local://audio/45.mp3"
       },
       {
-        "id": "47",
+        "id": "1-47",
         "title": "A cup of coffeeMRS YOUNG: Do you like coffee, Mrs Price?",
         "content": "MRS PRICE: Yes, I do.\nMRS YOUNG: Do you want a cup?\nMRS PRICE: Yes, please.\nMrs Young.\nMRS YOUNG: Do you want any sugar?\nMRS PRICE: Yes, please.\nMRS YOUNG: Do you want any milk?\nMRS PRICE: No, thank you.\nI don't like milk in my coffee.\nI like black coffee.\nMRS YOUNG: Do you like biscuits?\nMRS PRICE: Yes, I do.\nMRS YOUNG: Do you want one?\nMRS PRICE: Yes, please.",
         "audioUrl": "local://audio/47.mp3"
       },
       {
-        "id": "49",
+        "id": "1-49",
         "title": "At the butcher'sBUTCHER: Do you want any meat today, Mrs Bird?",
         "content": "MRS BIRD: Yes, please.\nBUTCHER: This lamb's very good.\nMRS BIRD: I like lamb, but my husband doesn't .\nBUTCHER: What about some steak?\nThis is a nice piece.\nMRS BIRD: Give me that piece please.\nBUTCHER: Do you want a chicken, Mrs Bird?\nThey're very nice.\nMRS BIRD: No, thank you.\nMRS BIRD: My husband likes steak, but he doesn't like chicken.\nBUTCHER: To tell you the truth(˵ʵ�ڵ�), Mrs. Bird, I don't like chicken, either !",
         "audioUrl": "local://audio/49.mp3"
       },
       {
-        "id": "51",
+        "id": "1-51",
         "title": "A pleasant climateHANS: Where do you come from?",
         "content": "DIMITRI: I come from Greece.\nHANS: What's the climate like in your country?\nDIMITRI: It's very pleasant.\nHans: What's the weather like in spring?\nDIMITRI: It's often windy in March.\nIt's always warm in April and May, but it rains sometimes.\nHANS: What's it like in summer?\nDIMITRI: It's always hot in June, July and August.\nThe sun shines every day.\nHANS: Is it cold or warm in autumn?\nDIMITRI: It's always warm in September and October.\nIt's often cold in November and it rains sometimes.\nHANS: Is it very cold in winter?\nDIMITRI: It's often cold in December, January and February.\nIt snows sometimes.",
         "audioUrl": "local://audio/51.mp3"
       },
       {
-        "id": "53",
+        "id": "1-53",
         "title": "An interesting climateHANS: Where do you come from?",
         "content": "JIM: I come from England.\nHANS: What's the climate like in your country?\nJim: It's mild���º͵ģ�, but it's not always pleasant.\nJim: The weather's often cold in the North and windy in the East.\nIt's often wet in the West and sometimes warm in the South.\nHans: Which seasons do you like best?\nJim: I like spring and summer.\nThe days are long and the nights are short.\nThe sun rises early and sets late.\nI don't like autumn and winter.\nThe days are short and the nights are long.\nThe sun rises late and sets early.\nOur climate is not very good, but it's certainly interesting.\nIt's our favorite subject of conversation.",
         "audioUrl": "local://audio/53.mp3"
       },
       {
-        "id": "55",
+        "id": "1-55",
         "title": "The Sawyer familyThe Sawyers live at 87 King Street.",
         "content": "In the morning, Mrs Sawyer goes to work and the children go to school.\nTheir father takes them to school every day.\nMrs Sawyer stays at home every day.\nShe does the housework.\nShe always eats her lunch at noon.\nIn the afternoon, she usually sees her friends.\nThey often drink tea together.\nIn the evening, the children come home from school.\nThey arrive home early.\nMr Sawyer comes home from work.\nHe arrives home late.\nAt night, the children always do their homework.\nThen they go to bed.\nMr Sawyer usually reads his newspaper, but sometimes he and his wife watch television.",
         "audioUrl": "local://audio/55.mp3"
       },
       {
-        "id": "57",
+        "id": "1-57",
         "title": "An unusual dayIt is eight o'clock.",
         "content": "The children go to school by car every day, but today, they are going to school on foot.\nIt is ten o'clock.\nMrs Sawyer usually stays at home in the morning, but this morning, she is going to the shops.\nIt is four o'clock.\nIn the afternoon, Mrs Sawyer usually drinks tea in the living-room, but this afternoon, she is drinking tea in the garden.\nIt is six o'clock.\nIn the evening, the children usually do their homework, but this evening, they are not doing their homework.\nAt the moment, they are playing in the garden.\nIt is nine o'clock, Mr. Sawyer usually reads his newspaper at night, but he is not reading his newspaper tonight.\nAt the moment, he is reading an interesting book.",
         "audioUrl": "local://audio/57.mp3"
       },
       {
-        "id": "59",
+        "id": "1-59",
         "title": "Is that all?",
         "content": "LADY: I want some envelopes please.\nSTATIONER: Do you want the large size, or the small size?\nLADY: The large size please.\nLADY: Have you any writing-paper����ֽ��?\nStationer: Yes, we do.\nStationer: I haven't any small pads.\nI only have large ones.\nDo you want a pad����ǩ����?\nLADY: Yes, please.\nLADY: And I want some black ink and some glue.\nStationer: A bottler of ink and a bottle of glue.\nLADY: And I want a large box of chalk, too.\nStationer: I only have small boxes.\nDo you want one?\nLADY: No, thank you.\nStationer: Is that all?\nLADY: That's all, thank you.\nStationer: What else do you want?\nLADY: I want my change.",
         "audioUrl": "local://audio/59.mp3"
       },
       {
-        "id": "61",
+        "id": "1-61",
         "title": "MR WILLIANMS: Where's Jimmy?",
         "content": "MRS WILLIAMS: He's in bed.\nMR WILLIAMS: What's the matter with him?\nMRS WILLIAMS: He feels ill.\nMR WILLIAMS: He looks ill.\nMRS WILLIAMS: We must call the doctor.\nMR WILLIAMS: Yes, we must.\nMR WILLIAMS: Can you remember the doctor's telephone number?\nMRS WILLIAMS: Yes.\nIt's 09754.\nDOCTOR: Open your mouth, Jimmy.\nShow me your tongue.\nSay, 'Ah'.\nMR WILLIMAMS: What's the matter with him, doctor?\nDOCTOR: He has a bad cold, Mr Williams, so he must stay in bed for a week.\nMRS WILLIAMS: That's good news for Jimmy.\nDOCTOR: Good news?\nWhy?\nMR WILLIAMS: Because he doesn't like school!",
         "audioUrl": "local://audio/61.mp3"
       },
       {
-        "id": "63",
+        "id": "1-63",
         "title": "Thank you , doctor.",
         "content": "DOCTOR: How's Jimmy today?\nMRS WILLIAMS: He's better , thank you, doctor.\nDOCTOR: Can I see him please, Mrs Williams?\nMRS WILLIAMS: Certainly, doctor.\nCome upstairs.\nDOCTOR: You look very well, Jimmy.\nYou are better now, but you mustn't get up yet.\nYou must stay in bed for another two days.\nDOCTOR: The boy mustn't go to school yet, Mrs Williams.\nAnd he mustn't eat rich food.\nMrs Williams: Does he have a temperature, doctor?\nDoctor: No, he doesn't.\nMRS WILLIAMS: Must he stay in bed?\nDOCTOR: Yes.\nHe must remain in bed for another two days.\nHe can get up for about two hours each day, but you must keep the room warm.\nDOCTOR: Where's Mr Williams this evening?\nMRS WILLIAMS: He's in bed, doctor.\nCan you see him, please?\nHe has a bad cold, too!",
         "audioUrl": "local://audio/63.mp3"
       },
       {
-        "id": "65",
+        "id": "1-65",
         "title": "Not a babyFATHER: What are you going to do this evening, Betty?",
         "content": "Betty: I'm going to meet some friends, Dad.\nFATHER: You mustn't come home late.\nYou must be home at half past ten.\nBETTY: I can't get home so early, Dad.\nCan I have the key to the front door, please?\nFATHER: NO, you can't.\nMOTHER: Betty's eighteen years old, Tom.\nShe's not a baby.\nGive her the key.\nShe always comes home early.\nFATHER: Oh, all right!\nFATHER: Here you are.\nBut you mustn't come home after a quarter past eleven.\nDo you hear?\nBETTY: Yes, Dad.\nBETTY: Thanks, Mum.\nMOTHER: That's all right.\nGoodbye.\nEnjoy yourself!\nBETTY: We always enjoy ourselves, Mum.\nBye, bye.",
         "audioUrl": "local://audio/65.mp3"
       },
       {
-        "id": "67",
+        "id": "1-67",
         "title": "The weekendMRS JOHNSON: Hullo, Mrs Williams.",
         "content": "Were you at the butcher's?\nMRS WILLIAMS: Yes.\nI was.\nWere you at the butcher's ,too?\nMRS JOHNSON: No, I wasn't.\nI was at the greengrocer's.\nHow's Jimmy today?\nMRS WILLIAMS: He's very well, thank you.\nMRS JOHNSON: Was he absent from school last week?\nMRS WILLIAMS: Yes, he was.\nHe was absent on Monday, Tuesday, Wednesday and Thursday.\nHow are you all keeping?\n������������ô������MRS JOHNSON: Very well, thank you.\nWe're going to spend three days in the country.\nWe're going to stay at my mother's for the week-end.\nMRS WILLIAMS: Friday, Saturday and Sunday in the country!\nAren't you lucky!",
         "audioUrl": "local://audio/67.mp3"
       },
       {
-        "id": "69",
+        "id": "1-69",
         "title": "The car raceThere is a car race near our town every year.",
         "content": "In 1968, there was a very big race.\nThere were hundreds of people there.\nMy wife and I were at the race.\nOur friends, Julie and Jack were there, too.\nYou can see us in the crowd.\nWe are standing on the left.\nThere were twenty cars in the race.\nThere were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.\nIt was an exciting finish.\nThe winner was Billy Stewart.\nHe was in car number fifteen.\nFive other cars were just behind him.\nOn the way home, my wife said to me, \"Don't drive so quickly!\nYou're not Billy Stewart!\"",
         "audioUrl": "local://audio/69.mp3"
       },
       {
-        "id": "71",
+        "id": "1-71",
         "title": "He's awfulJane: What's Ron Marston like , Pauline ?",
         "content": "Pauline: He's awful !\nHe telephoned me four times yesterday , and three times the day before yesterday.\nPauline: He telephoned the office yesterday morning and yesterday afternoon.\nMy boss answered the telephone .\nJane: What did your boss say to him ?\nPauline: He said ,\"Miss White is typing letters .\nShe can't speak to you now !\"\nPauline: Then I arrived home at six o'clock yesterday evening .\nHe telephoned again .\nBut I didn't answer the phone !\nJane: Did he telephone again last night ?\nPauline: Yes , he did .\nHe telephoned at nine o'clock .\nJane: What did you say to him ?\nPauline: I said ,\"This is Pauline 's mother .\nPlease don't telephone my daughter again !\"\nJane: Did he telephone again ?\nPauline: No , he didn't !",
         "audioUrl": "local://audio/71.mp3"
       },
       {
-        "id": "73",
+        "id": "1-73",
         "title": "The way to King StreetLast week Mrs Mills went to London.",
         "content": "She does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus-shop.\"\nI can ask him the way.\"\nShe said to herself.\n\"Excuse me,\" she said.\"\nCan you tell me the way to King Street please?\"\nThe man smiled pleasantly.\nHe did not understand English!\nHe spoke German.\nHe was a tourist.\nThen he put his hand into his pocket, and took out a phrase-book.\nHe opened the book and found a phrase.\nHe read the phrase slowly.\"\nI am sorry,\" he said.\"\nI do not speak English.\"",
         "audioUrl": "local://audio/73.mp3"
       },
       {
-        "id": "75",
+        "id": "1-75",
         "title": "Uncomfortable shoesLADY: Have you any shoes like these?",
         "content": "SALESMAN: What size?\nLady: Size five.\nSalesman: What colour?\nLady: Black.\nSalesman: I'm sorry.\nWe haven't any.\nLady: But my sister bought this pair last month.\nSalesman: Did she buy them here?\nLady: No, she bought them in the U.\nS.\nSalesman: We had some shoes like those a month ago, but we haven't any now.\nLady: Can you get a pair for me please?\nSalesman: I'm afraid that I can't.\nThey were in fashion last year and the year before last.\nBut they're not in fashion this year.\nSalesman: These shoes are in fashion now.\nLady: They look very uncomfortable.\nSalesman: They are very uncomfortable.\nBut women always wear uncomfortable shoes!",
         "audioUrl": "local://audio/75.mp3"
       },
       {
-        "id": "77",
+        "id": "1-77",
         "title": "Terrible toothacheNurse: Good morning, Mr Croft.",
         "content": "Mr Croft: Good morning, nurse.\nI want to see the dentist, please.\nNurse: Have you an appointment?\n����ԤԼ�𣿣�Mr Croft: No, I haven't .\nNurse: Is it urgent?\nMr Croft: Yes, it is .\nIt's very urgent.\nI feel awful.\nI have a terrible toothache.\nNurse: Can you come at 10 am on Monday, April 24th?\nMr Croft: I must see the dentist now, nurse.\nNurse: The dentist is very busy at the moment.\nCan you come at 2:00 PM?\nMr Croft: That's very late.\nCan't the dentist see me now?\nNurse: I'm afraid that he can't , Mr Croft.\nCan't you wait till this afternoon?\nMr Croft: I can wait, but my toothache can't !",
         "audioUrl": "local://audio/77.mp3"
       },
       {
-        "id": "79",
+        "id": "1-79",
         "title": "Peggy's shopping-listTom: What are you doing, Peggy?",
         "content": "Peggy: I'm making a shopping-list, Tom.\nTom: What do we need?\nPeggy: We need a lot of things this week.\nPeggy: I must go to the grocer's.\nWe haven't got much tea or coffee, and we haven't got any sugar or jam.\nTom: What about vegetables?\nPeggy: I must go to the greengrocer's.\nWe haven't got many tomatoes, but we've got a lot of potatoes.\nPeggy: I must go to the butcher's, too.\nWe need some meat.\nWe haven't got any meat at all.\nTom: Have we got any beer and wine?\nPeggy: No, we haven't.\nAnd I'm not going to get any!\nTom: I hope that you've got some money.\nPeggy: I haven't got much.\nTom: Well, I haven't got much either!",
         "audioUrl": "local://audio/79.mp3"
       },
       {
-        "id": "81",
+        "id": "1-81",
         "title": "Roast beef and potato.",
         "content": "John: Hullo, Peggy!\nWhere's Tom?\nPeggy: He's upstairs.\nHe's having a bath.\nPeggy: Tom!\nTom: Yes?\nPeggy: John's here.\nTom: I'm nearly ready.\nTom: Hullo, John.\nHave a cigarette.\nJohn: No thanks, Tom.\nTom: Have a glass of whisky then.\nJohn: O.\nK.\nThanks.\nTom: Is dinner ready, Peggy?\nPeggy: It's nearly ready.\nWe can have dinner at seven o'clock.\nTom: John and I had lunch together today.\nWe went to a restaurant.\nPeggy: What did you have?\nTom: We had roast beef and potatoes.\nPeggy: Oh!\nTom: What's the matter, Peggy?\nPeggy: Well, you're going to have roast beef and potatoes again tonight!",
         "audioUrl": "local://audio/81.mp3"
       },
       {
-        "id": "83",
+        "id": "1-83",
         "title": "Going on a holidayPeggy: Hullo, John.",
         "content": "Come in.\nTom: Hullo, John.\nWe're having lunch.\nDo you want to have lunch with us?\nJohn: No thank you, Tom.\nI've already had lunch.\nI had lunch at half past twelve.\nPeggy: Have a cup of coffee then.\nJohn: I've just had a cup, thank you.\nI had one after my lunch.\nTom: Let's go into the living-room, Peggy.\nWe can have our coffee there.\nPeggy: Excuse the mess, John.\nThis room's very untidy.\nWe're packing our suitcases.\nWe're going to leave tomorrow.\nTom and I are going to have a holiday.\nJohn: Aren't you lucky!\nTom: When are you going to have a holiday, John?\nJohn: I don't know.\nI've already had my holiday this year.\nPeggy: Where did you go?\nJohn: I stayed at home!",
         "audioUrl": "local://audio/83.mp3"
       },
       {
-        "id": "85",
+        "id": "1-85",
         "title": "Paris in the SpringGeorge: Hullo, Ken.",
         "content": "Ken: Hullo, George.\nGeorge: Have you just been to the cinema?\nKen: Yes, I have.\nGeorge: What's on?\nKen: \"Paris in the Spring\".\nGeorge: Oh, I've already seen it.\nI saw it on a B.\nB.C.\ntelevision programme last year.\nIt's an old film, but it's very good.\nKen: Paris is a beautiful city.\nGeorge: I have never been there.\nHave you ever been there, Ken?\nKen: Yes, I have.\nI was there in April.\nGeorge: Paris in the spring, eh?\nKen: It was spring, but the weather was awful.\nIt rained all the time.\nGeorge: Just like dear old London!",
         "audioUrl": "local://audio/85.mp3"
       },
       {
-        "id": "87",
+        "id": "1-87",
         "title": "A car crashMr Wood: Is my car ready yet?",
         "content": "Attendant: I don't know, sir.\nWhat's the licence number of your car?\nMr Wood: It's LFZ 312 G.\nAttendant: When did you bring it to us?\nMr Wood: I bought it hear three days ago.\nAttendant: Ah yes, I remember now.\nMr Wood: Have your mechanics finished yet?\nAttendant: No, they're still working on it.\nLet's go into the garage and have a look at it.\nAttendant: Isn't that your car?\nMr Wood: Well, it was my car.\nAttendant: Didn't your wife have a crash?\nMr Wood: That's right.\nShe drove it into a lamp post�����߸ˣ�.\nCan your mechanics repair it?\nAttendant: Well, they're trying to repair it, sir.\nBut to tell you the truth, you need a new car.",
         "audioUrl": "local://audio/87.mp3"
       },
       {
-        "id": "89",
+        "id": "1-89",
         "title": "For saleMr Hill: Good afternoon.",
         "content": "I believe that this house is for sale�����ۣ�.\nMr West: That's right.\nMr Hill: May I have a look at it please?\nMr West: Yes, of course.\nCome in.\nMr Hill: How long have you lived here?\nMr West: I have lived here for twenty years.\nMr Hill: Twenty years!\nThat's a long time.\nMr West: Yes, I have been here since 1947.\nMr Hill: Then why do you want to sell it?\nMr West: Because I have just retired.\nI want to buy a small house in the country.\nMr Hill: How much does this house cost?\nMr West: ��6850.\nMr Hill: That's a lot of money!\nMr West: It's worth every penny of it.\nMr Hill: Well, I like the house, but I can't decide yet.\nMy wife must see it first.\nMr West: Women always have the last word.",
         "audioUrl": "local://audio/89.mp3"
       },
       {
-        "id": "91",
+        "id": "1-91",
         "title": "Poor WestMrs Smith: Has Mr West sold his house yet?",
         "content": "Mrs Brown: Yes, he has.\nHe sold it last week.\nMrs Smith: Has he moved to his new house yet?\nMrs Brown: No, not yet.\nHe's still here.\nHe's going to move tomorrow.\nMrs Smith: When?\nTomorrow morning?\nMrs Brown: No.Tomorrow afternoon.\nI'll miss him.\nHe has always been a good neighbour.\nMrs Green: He's a very nice person.\nWe shall all miss him.\nMrs Smith; When will the new people move into this house?\nMrs Brown: I think that they will move in the day after tomorrow.\nMrs Green: Will you see Mr West today, Mrs Brown?\nMrs Brown: Yes, I will.\nMrs Green: Please give him my regards.\n��give one's regards to sb.\n��sb.\n�ʺ�Mr Smith: Poor Mr West!\nHe didn't want to leave this house.\nMrs Brown: No, he didn't want to leave, but his wife did!",
         "audioUrl": "local://audio/91.mp3"
       },
       {
-        "id": "93",
+        "id": "1-93",
         "title": "Our new neighborMr Hill is our new next-door neighbour.",
         "content": "He's a pilot.\nHe was in the R.\nA.\nF.\n(�ʼҿվ�)He will fly to New York next month.\nThe month after next he will fly to Tokyo.\nAt the moment�����ڣ�, he's in Madrid.\nHe flew to Spain a week ago.\nHe will return to London the week after next.\nHe's only forty-one years old, and he has already been to nearly every country in the world.\nMr Hill is a very lucky man.\nBut his wife isn't very lucky.\nShe usually stays at home!",
         "audioUrl": "local://audio/93.mp3"
       },
       {
-        "id": "95",
+        "id": "1-95",
         "title": "Ticket, please.",
         "content": "George: Two return tickets to London please.\nWhat time will the next train leave?\nAttendant: At nineteen minutes past eight.\nGeorge: Which platform?\nAttendant: Platform Two.\nOver the bridge.\nKen: What time will the next train leave?\nGeorge: At eight nineteen.\nKen: We've got plenty of time.\nGeorge: It's only three minutes to eight.\nKen: Let's go and have a drink.\nThere's a bar next door to the station.\nGeorge: We had better go back to the station now, Ken.\nPorter: Tickets please.\nGeorge: We want to catch the eight nineteen to London.\nPorter: You've just missed it!\nGeorge: What!\nIt's only eight fifteen.\nPorter: I'm sorry, sir.\nThat clock's ten minutes slow.\nGeorge: When's the next train?\nPorter: In five hours' time!",
         "audioUrl": "local://audio/95.mp3"
       },
       {
-        "id": "97",
+        "id": "1-97",
         "title": "A small blue caseMr Hall: I left a suitcase on the train to London the other day.",
         "content": "Attendant: Can you describe it, sir?\nMr Hall: It's a small blue case and it's got a zip.\nThere's a label on the handle with my name and address on it.\nAttendant: Is this case yours?\nMr Hall: No, that's not mine.\nAttendant: What about this one?\nThis one's got a label.\nMr Hall: Let me see it.\nAttendant: What's you name and address?\nMr Hall: David Hall,83, Bridge Street.\nAttendant: That's right.\nD.\nN.\nHall.\n83.\nBridge Street.\nAttendant: Three pound and fifty pence please.\nMr Hall: Here you are.\nAttendant: Thank you.\nMr Hall: Hey!\nAttendant: What's the matter?\nMr Hall: This case doesn't belong to me!\nYou've given me the wrong case!",
         "audioUrl": "local://audio/97.mp3"
       },
       {
-        "id": "99",
+        "id": "1-99",
         "title": "Ow!",
         "content": "Ted: Ow!\nPat: What's the matter, Ted?\nTed: I slipped and fell downstairs.\nPat: Have you hurt yourself?\nTed: Yes, I have.\nI think that I've hurt my back.\nPat: Try and stand up.\nCan you stand up?\nHere.\nLet me help you.\nTed: I'm sorry, Pat.\nI'm afraid that I can't get up.\nPat: I think that the doctor had better see you.\nI'll telephone Dr Carter.\nPat: The doctor says that he will come at once.\nI'm sure that you need an X-ray, Ted.",
         "audioUrl": "local://audio/99.mp3"
       },
       {
-        "id": "101",
+        "id": "1-101",
         "title": "A card from JimmyGrandmother: Read Jimmy's card to me please, Mary.",
         "content": "Mary: \"I have just arrived in Scotland and I'm staying at a Youth Hostel.\"\nGrandmother: Eh?\nMary: He says he's just arrived in Scotland.\nHe says he's staying at a Youth Hostel.\nYou know he's a member of the Y.\nH.\nA.\nGrandmother: The what?\nMary: The Y.\nH.\nA.\n, mother.\nThe Youth Hostel's Association.\nGrandmother: What else does he say?\nMary: \"I'll write a letter soon.\nI hope you are all well.\"\nGrandmother: What?\nSpeak up, Mary.\nI'm afraid I can't hear you.\nMary: He says he'll write a letter soon.\nHe hopes we are all well.\"\nLove, Jimmy.\"\nGrandmother: Is that all?\nHe doesn't say very much, does he?\nMary: He can't write very much on a card, mother.",
         "audioUrl": "local://audio/101.mp3"
       },
       {
-        "id": "103",
+        "id": "1-103",
         "title": "The Intelligence testHarry: How was the examination, Dick?",
         "content": "Dick: Not too bad.\nI think I passed in English and Mathematics.\nThe questions were very easy.\nHow about you, Harry?\nHarry: The English and Maths papers weren't easy enough for me.\nI hope I haven't failed.\nDick: I think I failed the Intelligence Test.\nI could answer sixteen of the questions.\nThey were very easy.\nBut I couldn't answer the rest.\nThey were too difficult for me.\nHarry: Intelligence tests are awful, aren't they?\nDick: I hate them.\nI'm sure I've got a low I.\nQ.\nHarry: Oh, cheer up�������㣩!\nPerhaps we didn't do too badly.\nThe guy next to me wrote his name at the top of the paper.\nDick: Yes?\nHarry: Then he sat there and looked at it for three hours!\nHe didn't write a word!",
         "audioUrl": "local://audio/103.mp3"
       },
       {
-        "id": "105",
+        "id": "1-105",
         "title": "Hello, Mr. boss.",
         "content": "The Boss: Where's Miss Simpson, Bob?\nI want her.\nBob: Do you want to speak to her, sir?\nThe Boss: Yes, I do.\nI want her to come to my office.\nTell her to come at once.\nMiss Simpson: Did you want to see me, sir?\nThe Boss: Ah, yes, Miss Simpson.\nHow do you spell \" intelligent\"?\nCan you tell me?\nMiss Simpson: I-N-T-E-L-L-I-G-E-N-T.\nThe Boss: That's right.\nYou've typed it with only one \"L\".\nThis letter's full of mistakes.\nI want you to type it again.\nMiss Simpson: Yes, I'll do that.\nI'm sorry about that.\nThe Boss: And here's a little present for you.\nMiss Simpson: What is it?\nThe Boss: It's a dictionary.\nI hope it will help you.",
         "audioUrl": "local://audio/105.mp3"
       },
       {
-        "id": "107",
+        "id": "1-107",
         "title": "It's too smallAssistant: Do you like this dress, madam?",
         "content": "Lady: I like the colour very much.\nIt's a lovely dress, but it's too small for me.\nAssistant: What about this one?\nIt's a lovely dress.\nIt's very smart.\nShort skirts are in fashion now.\nWould you like to try it?\nLady: All right.\nLady: I'm afraid this green dress is too small for me as well.\nIt's smaller than the blue one.\nLady: I don't like the colour either.\nIt doesn't suit me at all.\nI think the blue dress is prettier.\nLady: Could you show me another blue dress?\nI want a dress like that one, but it must be my size.\nAssistant: I'm afraid I haven't got a larger dress.\nThis is the largest dress in the shop.",
         "audioUrl": "local://audio/107.mp3"
       },
       {
-        "id": "109",
+        "id": "1-109",
         "title": "A good ideaBetty: Shall I make some coffee, Jane?",
         "content": "Jane: That's a good idea, Betty.\nBetty: It's ready.\nDo you want any milk?\nJane: Just a little please.\nBetty: What about some sugar?\nTwo teaspoonfuls?\nJane: No, less than that.\nOne and a half teaspoonfuls please.\nThat's enough for me.\nJane: That was very nice.\nBetty: Would you like some more?\nJane: Yes, please.\nJane: I'd like a cigarette, too.\nMay I have one?\nBetty: Of course.\nI think there are a few in that box.\nJane: I'm afraid it's empty.\nBetty: What a pity!\n�����ź���Jane: It doesn't matter.\nBetty: Have a biscuit instead.\nEat more and smoke less!\nJane: That's very good advice!",
         "audioUrl": "local://audio/109.mp3"
       },
       {
-        "id": "111",
+        "id": "1-111",
         "title": "The most expensive modelMr Frith: I like this record-player very much.",
         "content": "How much does it cost please?\nAssistant: It's the most expensive model in the shop.\nIt costs sixty-four pounds.\nMrs Frith: That's too expensive for us.\nWe can't afford all that money.\nAssistant: This model's less expensive than that one.\nIt's only twenty-eight pounds.\nBut, of course, it's not as good as the expensive one.\nMr Frith: I don't like this model.\nThe other model's more expensive, but it's worth the money.\nMr Frith: Can we buy it on instalments?\n(���ڸ���)Assistant: Of course.\nYou can pay a deposit����֤�� of ten pounds, and then one pound a week for sixty weeks.\nMr Frith: Do you like it, dear?\nMrs Frith: I certainly do, but I don't like the price.\nYou always want the best, but we can't afford it.\nSometimes you think you're a millionaire!\nMr Frith: Millionaires don't buy things on instalments !",
         "audioUrl": "local://audio/111.mp3"
       },
       {
-        "id": "113",
+        "id": "1-113",
         "title": "small changeConductor: Fares please!",
         "content": "Man: Trafalgar Square please.\nConductor: I'm sorry, sir.\nI can't change a pound note.\nHaven't you got any small change?\nMan: I've got no small change, I'm afraid.\nConductor: I'll ask some of the passengers.\nConductor: Have you any small change, sir?\n1st Passenger: I'm sorry.\nI've got none.\n2ndPassenger: I haven't got any either.\nConductor: Can you change this pound note, madam?\n3rd Passenger: I'm afraid I can't.\n4th Passenger: Neither can I.\nConductor: I'm very sorry, sir.\nYou must get off the bus.\nNone of our passengers can change this note.\nThey're all millionaires!\nTwo Tramps: Except us, conductor.\n1st Tramp: I've got some small change.\n2nd Tramp: So have I.",
         "audioUrl": "local://audio/113.mp3"
       },
       {
-        "id": "115",
+        "id": "1-115",
         "title": "Not .",
         "content": ".\n.\n.\nHelen: Isn't there anyone at home?\nJim: I'll knock again, Helen.\nEverything's very quiet.\nI'm sure there's no one at home.\nHelen: But that's impossible.\nPat and Tom invited us to lunch.\nLook through the window.\nHelen: Can you see anything?\nJim: Nothing at all.\nHelen: Let's try the back door.\nJim: Look!\nEveryone's in the garden.\nPat: Hullo, Helen.\nHullo, Jim.\nTom: Everybody wants to have lunch in the garden.\nIt's nice and warm out here.\nPat: Come and have something to drink.\nJim: Thanks, Pat.\nMay I have a glass of bear please?\nPat: Beer?\nThere's none left.\nYou can have some lemonade.\n(����ˮ)Jim: Lemonade!\nTom: Don't believe her, Jim.\nShe's only joking.\nHave some beer!",
         "audioUrl": "local://audio/115.mp3"
       },
       {
-        "id": "117",
+        "id": "1-117",
         "title": "Tommy's breakfastWhen my husband was going into the dining-room this morning , he dropped some coins on the floor.",
         "content": "There were coins everywhere.\nWe looked for them, but we could not find them all.\nWhile we were having breakfast, our little boy, Tommy, found two small coins on the floor.\nHe put them both into his mouth.\nWe both tried to get the coins, but it was too late.\nTommy had already swallowed them!\nLater that morning, when I was doing the housework, my husband telephoned me from the office.\"\nHow's Tommy?\"\nhe asked.\"\nI don't know,\" I answered, \"Tommy's been to the lavatory three times this morning, but I haven't had any change yet!\"",
         "audioUrl": "local://audio/117.mp3"
       },
       {
-        "id": "119",
+        "id": "1-119",
         "title": "A true storyDo you like stories?",
         "content": "I want to tell you a true story.\nIt happened to a friend of mine a year ago.\nWhile my friend, George, was reading in bed, two thieves climbed into his kitchen.\nAfter they had entered the house, they went into the dining-room.\nIt was very dark, so they turned on a torch.\nSuddenly, they heard a voice behind them.\"\nWhat's up?\nWhat's up?\"\n(ʲô��) someone called.\nThe thieves dropped the torch and ran away as quickly as they could.\nGeorge heard the noise and came downstairs quickly.\nHe turned on the light, but he couldn't see anyone.\nThe thieves had already gone.\nBut George's parrot, Henry, was still there.\"\nWhat's up, George?\"\nhe called.\"\nNothing, Henry,\" George said and smiled.\"\nGo back to sleep.\"",
         "audioUrl": "local://audio/119.mp3"
       },
       {
-        "id": "121",
+        "id": "1-121",
         "title": "The man in the hatCustomer: I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
         "content": "Manager: Who served you, sir?\nCustomer: The lady who is standing behind the counter.\nManager: Which books did you buy?\nCustomer: The books which are on the counter.\nManager: Did you serve this gentleman half an hour ago, Miss Roberts?\nHe says he's the man who bought these books.\nMiss Roberts: I can't remember, sir.\nThe man whom I served was wearing a hat.\nManager: Have you got a hat, sir?\nCustomer: Yes, I have.\nManager: Would you put it on, please?\nCustomer: All right.\nManager: Is this the man that you served, Miss Roberts?\nMiss Roberts: Yes, sir.\nI recognize him now.",
         "audioUrl": "local://audio/121.mp3"
       },
       {
-        "id": "123",
+        "id": "1-123",
         "title": "A trip to Australia Bill: Look, Bob.",
         "content": "This is a photograph I took during my trip to Australia.\nBob: Let me see it, Bill.\nBob: This is a good photograph.\nWho are these people?\nBill: They're people I met during the trip.\nBill: That's the ship we traveled on.\nBob: What a beautiful ship!\nBob: Who's this?\nBill: That's the man I told you about.\nRemember?\nBob: Ah yes.\nThe one who offered you a job in Australia.\nBill: That's right.\nBob: Who's this?\nBill: Guess!\nBob: It's not you, is it?\nBill: That's right.\nBill: I grew a beard during the trip, but I shaved it off when I came home.\nBob: Why did you shave it off?\nBill: My wife didn't like it!",
         "audioUrl": "local://audio/123.mp3"
       },
       {
-        "id": "125",
+        "id": "1-125",
         "title": "Susan: Can't you come in and have tea now, Peter?",
         "content": "Peter: Not yet, dear.\nI must water the garden first.\nSusan: Do you have to water it now?\nPeter: I'm afraid I must.\nLook at it!\nIt's terribly dry.\nSusan: What a nuisance!\n�������ᣩPeter: Last summer it was very dry, too.\nDon't you remember?\nI had to water it every day.\nSusan: Well, I'll have tea by myself.\nSusan: That was quick!\nHave you finished already?\nPeter: Yes, dear.\nLook out of the window.\nSusan: Good heaven!\nIt's raining.\nThat means you needn't water the garden.\nPeter: That was a pleasant surprise.\nIt means I can have tea, instead.",
         "audioUrl": "local://audio/125.mp3"
       },
       {
-        "id": "127",
+        "id": "1-127",
         "title": "A famous actressKate: Can you recognize that woman, Millie?",
         "content": "Millie: I think I can, Kate.\nIt must be Karen Marsh, the actress.\nKate: I thought so.\nWho's that beside her?\nMillie: That must be Conrad Reeves.\nKate: Conrad Reeves, the actor?\nIt can't be.\nLet me have another look.\nI think you're right!\nIsn't he her third husband?\nMillie: No, He must be her fourth or fifth.\nKate: Doesn't Karen Marsh look old!\nMillie: She does, doesn't she!\nI read she's twenty-nine, but she must be at least forty.\nKate: I'm sure she is.\nMillie: She was a famous actress when I was still a schoolgirl.\nKate: That was a long time ago, wasn't it?\nMillie: Not that long ago!\nI'm not more than twenty-nine myself.",
         "audioUrl": "local://audio/127.mp3"
       },
       {
-        "id": "129",
+        "id": "1-129",
         "title": "70 miles an hourAnn: Look, Harry!",
         "content": "That policeman's waving to you.\nHe wants you to stop.\nPoliceman: Where do you think you are?\nOn a race track?\nYou must have been driving at seventy miles an hour.\nHarry: I can't have been.\nPoliceman: I was doing eighty when I overtook you.\nPoliceman: Didn't you see the speed limit?\nHarry: I'm afraid I didn't, officer.\nI must have been dreaming .\nAnn: He wasn't dreaming, officer.\nI was telling him to drive slowly.\nHarry: That's why I didn't see the sign.\nPoliceman: Let me see your driving-license and your insurance certificate.\nPoliceman: I won't charge you this time.\nBut you'd better not do it again!\nHarry: Thank you.\nI'll certainly be more careful.\nAnn: I told you to drive slowly, Harry.\nHarry: You always tell me to drive slowly, darling.\nAnn: Well, next time you'd better take my advice!",
         "audioUrl": "local://audio/129.mp3"
       },
       {
-        "id": "131",
+        "id": "1-131",
         "title": "Don't be so sureRoy: Where are you going to spend your holidays this year, Harry?",
         "content": "Harry: We may go abroad.\nI'm not sure.\nMy wife wants to go to Egypt.\nI'd like to go there, too.\nWe can't make up our minds.\nRoy: Will you travel by sea or by air?\nHarry: We may travel by sea.\nRoy: It's cheaper, isn't it?\nHarry: It may be cheaper, but it takes a long time.\nRoy: I'm sure you will enjoy yourselves.\nHarry: Don't be so sure.\nWe may not go anywhere.\nMy wife always worries too much.\nWho's going to look after the dog?\nWho's going to look after the house?\nWho's going to look after the garden?\nWe have this problem every year.\nIn the end, we stay at home and look after everything!",
         "audioUrl": "local://audio/131.mp3"
       },
       {
-        "id": "133",
+        "id": "1-133",
         "title": "Sensational newsReporter: Have you just made a new film, Miss Marsh?",
         "content": "Miss Marsh: Yes, I have.\nReporter: Are you going to make another?\nMiss Marsh: No, I'm not.\nI'm going to retire.\nI feel very tired.\nI don't want to make another film for a long time.\nKate: let's buy a newspaper, Millie.\nListen to this!\"\nKaren Marsh: Sensational News!\n���䶯���ţ� By our reporter, Alan Jones.\nMiss Karen Marsh arrived at London Airport today.\nShe was wearing a blue dress and a mink coat.\nShe told me she had just made a new film.\nShe said she was not going to make another.\nShe said she was going to retire.\nShe told reporters she felt very tired and didn't want to make another film for a long time.\"\nMillie: Well, fancy that, Kate!",
         "audioUrl": "local://audio/133.mp3"
       },
       {
-        "id": "135",
+        "id": "1-135",
         "title": "The latest reportReporter: Are you really going to retire, Miss marsh?",
         "content": "Miss Marsh: I may.\nI can't make up my mind.\nI shall have to ask my future husband.\nHe won't let me make another film.\nReporter: Your future husband, Miss Marsh?\nMiss Marsh: Yes.\nLet me introduce him to you.\nHis name is Carlos.\nWe are going to get married next week.\nKate: Look, Millie!\nHere's another report about Karen Marsh.\nListen:\" Karen Marsh: The Latest.\nAt her London Hotel today Miss Marsh told reporters she might retire.\nShe said she couldn't make up her mind.\nShe said she would have to ask her future husband.\nShe said her future husband would not let her make another film.\nThen she introduced us to Carlos and told us they would get married next week.\"\nMillie: That's sensational news, isn't it, Kate?\nKate: It certainly is.\nHe'll be her sixth husband!",
         "audioUrl": "local://audio/135.mp3"
       },
       {
-        "id": "137",
+        "id": "1-137",
         "title": "A pleasant dreamJune: Are you doing the football pools(��ע), Brian?",
         "content": "Brian: Yes, I've nearly finished, June.\nI'm sure we will win something this week.\nJune: You always say that, but we never win anything!\nWhat will you do if you win a lot of money?\nBrian: If I win a lot of money , I shall buy you a mink coat.\nJune: I don't want a mink coat!\nI want to see the world.\n�������棩Brian: All right.\nIf we win a lot of money, we shall travel around the world and we shall stay at the best hotels.\nThen we shall return home and buy a big house in the country.\nWe shall have a beautiful garden and.\n.\n.\nJune: But if we spend all that money we shall be poor again.\nWhat shall we do then?\nBrian: If we spend all the money, we shall try and win the football pools again.\nJune: It's a pleasant dream, but everything depends on \"if\"!",
         "audioUrl": "local://audio/137.mp3"
       },
       {
-        "id": "139",
+        "id": "1-139",
         "title": "Is that you, John?",
         "content": "Mr Grimes: Is that you, John?\nJohn Smith: Yes, speaking.\nMr Grimes: Tell Mary we shall be late for dinner this evening.\nJohn Smith: I'm afraid I don't understand.\nMr Grimes: Hasn't Mary told you?\nShe invited betty and me to dinner this evening.\nI said I would be at your house at six o'clock, but the boss wants me to do some extra work.\nI'll have to stay at the office.\nI don't know when I shall finish.\nOh, and by the way, my wife wants to know if Mary needs any help.\nJohn Smith: I don't know what you're talking about.\nMr Grimes: That is John Smith, isn't it?\nJohn Smith: Yes, I'm John Smith.\nMr Grimes: You are John Smith, the engineer, aren't you?\nJohn Smith: That's right.\nMr Grimes: You work for the Overseas Engineering Company, don't you?\nJohn Smith: No, I don't.\nI'm John Smith the telephone engineer and I'm repairing your telephone line.",
         "audioUrl": "local://audio/139.mp3"
       },
       {
-        "id": "141",
+        "id": "1-141",
         "title": "Sally's first train rideLast week, my four year old daughter, Sally, was invited to a children's party.",
         "content": "I decided to take her by train.\nSally was very excited because she had never traveled on a train before.\nShe sat near the window and asked questions about everything she saw.\nSuddenly, a middle-aged lady got on the train and sat opposite Sally.\"\nHull, little girl.\"\nShe said.\nSally did not answer, but looked at her curiously.\nThe lady was dressed in a blue coat and a large, funny hat.\nAfter the train had left the station, the lady opened her handbag and took out her powder compact(�ۺ�).\nShe then began to make up her face.\"\nWhy are you doing that?\"\nSally asked.\"\nTo make myself beautiful,\" the lady answered.\nShe put away her compact and smiled kindly.\"\nBut you are still ugly.\"\nSally said.\nSally was amused, but I was very embarrassed!",
         "audioUrl": "local://audio/141.mp3"
       },
       {
-        "id": "143",
+        "id": "1-143",
         "title": "A walk through the woodsI live in a very old town which is surrounded by beautiful woods.",
         "content": "It is a famous beauty spot���羰�ص㣩.\nOn Sundays, hundreds of people come from the city to see our town and to walk through the woods.\nVisitors have been asked to keep the woods clean and tidy.\nLitter-baskets have been placed under the trees, but people still throw their rubbish everywhere.\nLast Wednesday, I went for a walk in the woods.\nWhat I saw made me very sad.\nI counted seven old cars and three old refrigerators.\nThe litter-baskets were empty and the ground was covered with pieces of paper, cigarette-ends, old tyres, empty bottles and rusty tins.\nAmong the rubbish I found a sign which said:\" Anyone who leaves litter in these woods will be prosecuted.\n(����)\"!",
         "audioUrl": "local://audio/143.mp3"

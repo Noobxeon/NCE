@@ -179,12 +179,57 @@ function ReaderView({ chapter, refreshVocab }: any) {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
 
+  const [lrcData, setLrcData] = useState<{time: number, text: string}[] | null>(null);
+  const [activeLrcIndex, setActiveLrcIndex] = useState(-1);
+  const lrcContainerRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     // Reset state on new chapter
     setIsPlaying(false);
     setCurrentTime(0);
     setDuration(0);
+    setLrcData(null);
+    setActiveLrcIndex(-1);
+
+    if (chapter?.audioUrl) {
+      const lrcUrl = chapter.audioUrl.replace(/\.mp3$/i, '.lrc');
+      fetch(lrcUrl)
+        .then(res => {
+          if (res.ok) return res.text();
+          throw new Error('LRC file missing or failed to fetch');
+        })
+        .then(text => {
+          const lines = text.split(/\r?\n/);
+          const parsed = [];
+          const timeReg = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/;
+          for (const line of lines) {
+            const match = timeReg.exec(line);
+            if (match) {
+              const m = parseInt(match[1]);
+              const s = parseInt(match[2]);
+              const ms = match[3].length === 2 ? parseInt(match[3]) * 10 : parseInt(match[3]);
+              const time = m * 60 + s + ms / 1000;
+              const textContent = line.replace(timeReg, '').trim();
+              if (textContent) parsed.push({ time, text: textContent });
+            }
+          }
+          setLrcData(parsed.length > 0 ? parsed : null);
+        })
+        .catch(e => {
+          console.warn(e.message);
+          setLrcData(null);
+        });
+    }
   }, [chapter?.id]);
+
+  useEffect(() => {
+    if (activeLrcIndex >= 0 && lrcContainerRef.current) {
+        const activeEl = lrcContainerRef.current.querySelector('.lrc-active');
+        if (activeEl) {
+            activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+  }, [activeLrcIndex]);
 
   if (!chapter) return <div className="glass-panel">Select a chapter from the sidebar.</div>;
 
@@ -206,7 +251,16 @@ function ReaderView({ chapter, refreshVocab }: any) {
   };
 
   const handleTimeUpdate = () => {
-      if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
+      if (audioRef.current) {
+          const t = audioRef.current.currentTime;
+          setCurrentTime(t);
+          
+          if (lrcData && lrcData.length > 0) {
+              let idx = lrcData.findIndex(line => line.time > t) - 1;
+              if (idx === -2) idx = lrcData.length - 1; 
+              setActiveLrcIndex(Math.max(0, idx));
+          }
+      }
   };
 
   const handleProgressBarClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -258,6 +312,23 @@ function ReaderView({ chapter, refreshVocab }: any) {
       setPopup(null);
     }
   };
+
+  const renderTextContent = (text: string) => {
+      return text.split(' ').map((word, j) => (
+          <React.Fragment key={j}>
+            <span 
+              className="text-word"
+              onClick={(e) => {
+                e.stopPropagation();
+                handleWordClick(word, e);
+              }}
+            >
+              {word}
+            </span>
+            {' '}
+          </React.Fragment>
+      ));
+  }
 
   const lines = chapter.content.split('\n');
 
@@ -313,7 +384,7 @@ function ReaderView({ chapter, refreshVocab }: any) {
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
                         <span>{formatTime(currentTime)}</span>
-                        <span>{formatTime(duration)}</span>
+                        <span>{lrcData ? '📝 LRC detected' : formatTime(duration)}</span>
                     </div>
                 </div>
             </div>
@@ -322,26 +393,48 @@ function ReaderView({ chapter, refreshVocab }: any) {
         )}
       </div>
       
-      <div className="text-content">
-        {lines.map((line: string, i: number) => (
-          <p key={i}>
-            {line.split(' ').map((word, j) => (
-              <React.Fragment key={j}>
-                <span 
-                  className="text-word"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleWordClick(word, e);
-                  }}
-                >
-                  {word}
-                </span>
-                {' '}
-              </React.Fragment>
+      {lrcData && lrcData.length > 0 ? (
+          <div ref={lrcContainerRef} style={{ flex: 1, overflowY: 'auto', padding: '40px 20px', scrollBehavior: 'smooth', position: 'relative' }}>
+              <div style={{ position: 'sticky', top: 0, left: 0, right: 0, height: 40, background: 'linear-gradient(to bottom, var(--bg-secondary) 0%, transparent 100%)', zIndex: 10, pointerEvents: 'none', margin: '-40px -20px 0 -20px' }}></div>
+              <div style={{ minHeight: '30vh' }}></div>
+              {lrcData.map((line, i) => (
+                  <p 
+                    key={i} 
+                    className={i === activeLrcIndex ? 'lrc-active' : ''}
+                    style={{ 
+                        textAlign: 'center', 
+                        fontSize: '1.4rem', 
+                        lineHeight: 1.8, 
+                        marginBottom: 32, 
+                        transition: 'all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+                        opacity: i === activeLrcIndex ? 1 : Math.abs(i - activeLrcIndex) <= 2 ? 0.4 : 0.1,
+                        transform: i === activeLrcIndex ? 'scale(1.1)' : 'scale(0.95)',
+                        color: i === activeLrcIndex ? 'var(--accent)' : 'var(--text-primary)',
+                        fontWeight: i === activeLrcIndex ? 700 : 500,
+                        cursor: 'pointer'
+                    }}
+                    onClick={() => {
+                       if (audioRef.current) {
+                           audioRef.current.currentTime = line.time;
+                           if (!isPlaying) togglePlay();
+                       }
+                    }}
+                  >
+                      {renderTextContent(line.text)}
+                  </p>
+              ))}
+              <div style={{ minHeight: '40vh' }}></div>
+              <div style={{ position: 'sticky', bottom: 0, left: 0, right: 0, height: 60, background: 'linear-gradient(to top, var(--bg-secondary) 0%, transparent 100%)', zIndex: 10, pointerEvents: 'none', margin: '0 -20px -40px -20px' }}></div>
+          </div>
+      ) : (
+          <div className="text-content">
+            {lines.map((line: string, i: number) => (
+              <p key={i}>
+                {renderTextContent(line)}
+              </p>
             ))}
-          </p>
-        ))}
-      </div>
+          </div>
+      )}
 
       {popup && (
         <div 
