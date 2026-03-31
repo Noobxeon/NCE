@@ -231,3 +231,15 @@ ipcMain.handle('get-books', () => {
 ipcMain.handle('open-books-folder', () => {
   shell.openPath(booksPath);
 });
+
+ipcMain.handle('read-lrc', (event, url) => {
+    try {
+        const decoded = decodeURIComponent(url.replace(/^local:\/\//, '').split('?')[0]);
+        const filePath = path.isAbsolute(decoded) ? decoded : path.join(booksPath, decoded);
+        const lrcPath = filePath.replace(/\.mp3$/i, '.lrc');
+        if (fs.existsSync(lrcPath)) {
+            return fs.readFileSync(lrcPath, 'utf8');
+        }
+    } catch(e) {}
+    return null;
+});

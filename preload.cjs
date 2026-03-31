@@ -8,5 +8,6 @@ contextBridge.exposeInMainWorld('api', {
   getBooks: () => ipcRenderer.invoke('get-books'),
   lookupWord: (word) => ipcRenderer.invoke('lookup-word', word),
   openBooksFolder: () => ipcRenderer.invoke('open-books-folder'),
-  migrateVocabPhonetics: () => ipcRenderer.invoke('migrate-vocab-phonetics')
+  migrateVocabPhonetics: () => ipcRenderer.invoke('migrate-vocab-phonetics'),
+  readLrc: (url) => ipcRenderer.invoke('read-lrc', url)
 });

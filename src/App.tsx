@@ -14,6 +14,7 @@ declare global {
       lookupWord: (word: string) => Promise<{meaning: string, phonetic: string} | null>;
       openBooksFolder: () => Promise<void>;
       migrateVocabPhonetics: () => Promise<any[]>;
+      readLrc: (url: string) => Promise<string | null>;
     }
   }
 }
@@ -58,8 +59,9 @@ function App() {
           return memoryVocab;
         },
         lookupWord: async () => null, // Mock has no internet lookup by default
-        openBooksFolder: async () => console.log('Mock: Open Books Folder'),
-        migrateVocabPhonetics: async () => memoryVocab
+        openBooksFolder: async () => {},
+        migrateVocabPhonetics: async () => [],
+        readLrc: async () => null
       };
       window.api = mockApi;
       mockApi.getBooks().then(data => {
@@ -191,14 +193,13 @@ function ReaderView({ chapter, refreshVocab }: any) {
     setLrcData(null);
     setActiveLrcIndex(-1);
 
-    if (chapter?.audioUrl) {
-      const lrcUrl = chapter.audioUrl.replace(/\.mp3$/i, '.lrc');
-      fetch(lrcUrl)
-        .then(res => {
-          if (res.ok) return res.text();
-          throw new Error('LRC file missing or failed to fetch');
-        })
-        .then(text => {
+    if (chapter?.audioUrl && window.api && window.api.readLrc) {
+      window.api.readLrc(chapter.audioUrl)
+        .then((text: string | null) => {
+          if (!text) {
+             setLrcData(null);
+             return;
+          }
           const lines = text.split(/\r?\n/);
           const parsed = [];
           const timeReg = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/;
@@ -215,7 +216,7 @@ function ReaderView({ chapter, refreshVocab }: any) {
           }
           setLrcData(parsed.length > 0 ? parsed : null);
         })
-        .catch(e => {
+        .catch((e: any) => {
           console.warn(e.message);
           setLrcData(null);
         });
