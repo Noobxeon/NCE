@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { BookOpen, List, BrainCircuit, ChevronRight, Plus, Trash2, CheckCircle, Play, Pause, RotateCcw, Headphones, BookA, SkipForward } from 'lucide-react';
 import './index.css';
 
@@ -403,7 +404,7 @@ function ReaderView({ chapter, refreshVocab }: any) {
       </div>
       
       {lrcData && lrcData.length > 0 ? (
-          <div ref={lrcContainerRef} style={{ flex: 1, overflowY: 'auto', padding: '40px 20px', scrollBehavior: 'smooth', position: 'relative' }}>
+          <div ref={lrcContainerRef} style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden', padding: '40px 20px', scrollBehavior: 'smooth', position: 'relative' }}>
               <div style={{ position: 'sticky', top: 0, left: 0, right: 0, height: 40, background: 'linear-gradient(to bottom, var(--bg-secondary) 0%, transparent 100%)', zIndex: 10, pointerEvents: 'none', margin: '-40px -20px 0 -20px' }}></div>
               <div style={{ minHeight: '30vh' }}></div>
               {lrcData.map((line, i) => (
@@ -445,35 +446,63 @@ function ReaderView({ chapter, refreshVocab }: any) {
           </div>
       )}
 
-      {popup && (
+      {popup && createPortal(
         <div 
-          className="word-popup" 
-          style={{ left: popup.x, top: popup.y }}
-          onClick={e => e.stopPropagation()}
+          className="glass-panel" 
+          style={{ 
+            position: 'fixed', 
+            ...(popup.x > window.innerWidth / 2 
+                ? { right: window.innerWidth - popup.x + 10 }
+                : { left: popup.x + 10 }),
+            ...(popup.y > window.innerHeight / 2
+                ? { bottom: window.innerHeight - popup.y + 10 }
+                : { top: popup.y + 10 }),
+            zIndex: 99999, 
+            padding: '16px 24px', 
+            display: 'flex', 
+            flexDirection: 'column', 
+            gap: 12,
+            minWidth: 260,
+            maxWidth: 340,
+            pointerEvents: 'auto',
+            transform: 'none',
+            boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2)'
+          }}
+          onClick={(e) => e.stopPropagation()}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'white' }}>{popup.word}</span>
-              {popup.phonetic && <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>/{popup.phonetic}/</span>}
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: 600, color: '#fff', margin: 0, display: 'flex', alignItems: 'center', gap: 8 }}>
+                {popup.word}
+                {popup.phonetic && <span style={{ fontSize: '1rem', color: 'var(--text-secondary)', fontWeight: 400 }}>/{popup.phonetic}/</span>}
+              </h3>
+              <button 
+                className="btn" 
+                style={{ padding: '6px 8px', background: 'var(--bg-tertiary)', color: 'white', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 6 }} 
+                onClick={(e) => { e.stopPropagation(); playTTS(popup.word); }}
+                title="Play Pronunciation"
+              >
+                 🔊 
+              </button>
             </div>
-            <button className="btn" style={{ padding: '4px 8px', background: 'var(--bg-tertiary)', color: 'white' }} onClick={(e) => { e.stopPropagation(); playTTS(popup.word); }}>
-               🔊
-            </button>
+            {isLoadingDict && <div style={{ width: 16, height: 16, borderRadius: '50%', border: '2px solid var(--accent)', borderTopColor: 'transparent', animation: 'spin 1s linear infinite' }} />}
           </div>
-          <input 
-            type="text" 
-            placeholder={isLoadingDict ? "查词中..." : "输入释义..."}
-            value={translStr}
-            onChange={(e) => setTranslStr(e.target.value)}
-            disabled={isLoadingDict}
-            style={{ width: '100%', marginBottom: 12, padding: '8px', borderRadius: '4px', border: '1px solid var(--border)', background: 'var(--bg-primary)', color: 'white', opacity: isLoadingDict ? 0.7 : 1 }} 
-            autoFocus 
-            onKeyDown={(e) => e.key === 'Enter' && handleAddVocab()}
-          />
-          <button className="btn btn-primary" style={{ width: '100%' }} onClick={handleAddVocab}>
-            <Plus size={16} /> Add to Vocab
+          
+          <div style={{ padding: '12px 0', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
+            <p style={{ fontSize: '1.1rem', color: '#e2e8f0', lineHeight: 1.5, wordSpacing: '2px', wordBreak: 'break-word', whiteSpace: 'pre-wrap' }}>
+              {translStr || '找不到该词的释义'}
+            </p>
+          </div>
+          
+          <button 
+            className="btn btn-primary" 
+            style={{ width: '100%', padding: '12px', fontSize: '1rem', marginTop: 4 }}
+            onClick={handleAddVocab}
+          >
+            <Plus size={18} /> Add to Vocabulary
           </button>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
