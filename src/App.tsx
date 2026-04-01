@@ -282,7 +282,15 @@ function ReaderView({ chapter, refreshVocab }: any) {
   const handleWordClick = async (word: string, e: React.MouseEvent) => {
     const cleanWord = word.replace(/[.,!?;:'"()]/g, '').trim().toLowerCase();
     if (cleanWord.length > 0) {
-      setPopup({ word: cleanWord, phonetic: '', x: Math.min(e.clientX, window.innerWidth - 250), y: Math.max(20, e.clientY - 90) });
+      const popupWidth = 340;
+      let popupX = e.clientX;
+      if (popupX + popupWidth > window.innerWidth) popupX = window.innerWidth - popupWidth - 20;
+      if (popupX < 300) popupX = 300; // avoid overlapping sidebar
+
+      let popupY = e.clientY - 120;
+      if (popupY < 60) popupY = e.clientY + 40; // drop it below if too close to top
+
+      setPopup({ word: cleanWord, phonetic: '', x: popupX, y: popupY });
       setTranslStr('自动查词中...');
       
       // Auto-lookup dictionary

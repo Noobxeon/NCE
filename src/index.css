@@ -128,7 +128,7 @@ body {
 .main-content {
   flex: 1;
   position: relative;
-  overflow-y: auto;
+  overflow: hidden; /* Fix: we want inner layouts to handle scrolling independently! */
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -151,11 +151,16 @@ body {
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
 }
 
 .reader-header {
   margin-bottom: 32px;
   text-align: center;
+  flex-shrink: 0;
 }
 
 .reader-title {
@@ -164,6 +169,7 @@ body {
   margin-bottom: 8px;
   background: linear-gradient(to right, #ffffff, #94a3b8);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -177,6 +183,9 @@ body {
   line-height: 2;
   color: #e2e8f0;
   letter-spacing: 0.3px;
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 16px;
 }
 
 .text-content p {
